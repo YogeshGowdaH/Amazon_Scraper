@@ -1,6 +1,7 @@
 import scrapy
 from ..items import MobileItem
 
+# Scrap Data From Amazon Website
 class AmazonSpider(scrapy.Spider):
 	name = 'amazon'
 	start_urls = [
